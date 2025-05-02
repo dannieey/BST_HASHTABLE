@@ -1,3 +1,4 @@
+package models;
 public class MyHashTable<K, V> {
 
     private class HashNode<K, V> {//represent 1 entry where each node stores a key and a value +reference to the next node in the chain
